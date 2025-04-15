@@ -1,0 +1,4 @@
+nump=
+numi=
+
+print
