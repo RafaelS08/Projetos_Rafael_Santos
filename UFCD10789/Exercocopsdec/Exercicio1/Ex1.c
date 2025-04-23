@@ -17,7 +17,6 @@ int main(){
         }
         else{
             for (int n = 60; n <= seg; n = n + 60){
-                //n = n+60;
                 min++;
             }
             seg_ = seg - min*60;
