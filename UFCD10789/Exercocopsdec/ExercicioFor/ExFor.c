@@ -6,7 +6,7 @@ int main() {
     int impares = 0;
 
     for (int i = 1; i <= 10; i++) {
-        printf("Digite o %dº número: ", i);
+        printf("Insira o %dÂº nÃºmero: ", i);
         scanf("%d", &numero);
 
         if (numero % 2 == 0) {
@@ -17,8 +17,8 @@ int main() {
         }
     }
 
-    printf("Quantidade de números pares: %d\n", pares);
-    printf("Quantidade de números ímpares: %d", impares);
+    printf("Quantidade de nÃºmeros pares: %d\n", pares);
+    printf("Quantidade de nÃºmeros Ã­mpares: %d", impares);
 
     return 0;
 }
