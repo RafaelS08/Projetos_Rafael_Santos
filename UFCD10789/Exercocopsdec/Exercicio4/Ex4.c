@@ -8,17 +8,15 @@ int main(){
     printf("Insira o seu saldo aqui: ");
     scanf("%d", &saldo);
 
-    //printf("%f", saldo);
-
     printf("Insira o valor do seu cheque aqui: ");
     scanf("%d", &cheque);
 
     desconto = saldo - cheque;
 
     if(cheque <= saldo){
-        printf("Foi possível realizar o desconto no cheque, ficou com o valor de %d como o seu saldo atual", desconto);
+        printf("Foi possÃ­vel realizar o desconto no cheque, ficou com o valor de %d como o seu saldo atual", desconto);
     }
     else if(cheque > saldo){
-        printf("Não é possível realizar o desconto no cheque pois o valor do cheque é superior ao seu saldo atual");
+        printf("NÃ£o Ã© possÃ­vel realizar o desconto no cheque pois o valor do cheque Ã© superior ao seu saldo atual");
     }
 }
