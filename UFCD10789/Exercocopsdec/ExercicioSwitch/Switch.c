@@ -3,18 +3,18 @@
 int main() {
     int mes;
 
-    printf("Digite um número de 1 a 12: ");
+    printf("Insira um nÃºmero de 1 a 12: ");
     scanf("%d", &mes);
 
     switch (mes){
         case 1:
-            printf("Janeiro\n");
+            printf("Janeiro");
             break;
         case 2:
             printf("Fevereiro\n");
             break;
         case 3:
-            printf("Março\n");
+            printf("MarÃ§o\n");
             break;
         case 4:
             printf("Abril\n");
@@ -45,7 +45,7 @@ int main() {
             break;
 
         default:
-            printf("Mês inválido! Não existe mês com esse número.\n");
+            printf("Mes invÃ¡lido!");
             break;
     }
 

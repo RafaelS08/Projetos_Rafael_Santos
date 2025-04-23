@@ -4,26 +4,24 @@ int main(){
     int num1;
     int num2;
     int num3;
-
-    printf("Diga 3 números para que possam ser analisados e informem o maior número e o menor: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
-
     int maior;
+    int menor;
+    
+    printf("Diga 3 nÃºmeros para que possam ser analisados e informem o maior nÃºmero e o menor: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
 
     if(num1 >= num2 && num1 >= num3){
         maior = num1;
-        printf("\nO maior número é: %d", maior);
+        printf("\nO maior nÃºmero Ã©: %d", maior);
     }
     else if(num2 >= num1 && num2 >= num3){
         maior = num2;
-        printf("\nO maior número é: %d", maior);
+        printf("\nO maior nÃºmero Ã©: %d", maior);
     }
     else{
         maior = num3;
-        printf("\nO maior número é: %d", maior);
+        printf("\nO maior nÃºmero Ã©: %d", maior);
     }
-
-    int menor;
 
     if(num1 <= num2 && num1 <= num3){
         menor = num1;
@@ -38,5 +36,5 @@ int main(){
         printf("\nO menor numero e: %d", menor);
     }
 
-    printf("\nO conjunto dos números selecionados são: %d, %d, %d", num1, num2, num3);
+    printf("\nO conjunto dos nÃºmeros selecionados sÃ£o: %d, %d, %d", num1, num2, num3);
 }
