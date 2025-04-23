@@ -6,7 +6,7 @@ int main() {
     int impares = 0;
 
     for (int i = 1; i <= 10; i++) {
-        printf("Insira o %dº número: ", i);
+        printf("Insira o %d número: ", i);
         scanf("%d", &numero);
 
         if (numero % 2 == 0) {
